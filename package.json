@@ -1,0 +1,65 @@
+{
+  "name": "react-debounced-delta-hook",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.tsx",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsdx build",
+    "test": "jest",
+    "prettier": "prettier --check src",
+    "format": "prettier --write src"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-typescript",
+      "@babel/preset-react"
+    ]
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleX83Xpert/react-debounced-delta-hook.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "reack",
+    "hook",
+    "debounced",
+    "delta"
+  ],
+  "author": "AleX83Xpert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AleX83Xpert/react-debounced-delta-hook/issues"
+  },
+  "homepage": "https://github.com/AleX83Xpert/react-debounced-delta-hook#readme",
+  "devDependencies": {
+    "@babel/core": "7.17.10",
+    "@babel/preset-env": "7.17.10",
+    "@babel/preset-react": "7.16.7",
+    "@babel/preset-typescript": "7.16.7",
+    "@types/jest": "^27.5.1",
+    "@types/lodash": "^4.14.182",
+    "@types/react": "^18.0.9",
+    "eslint-plugin-prettier": "4.0.0",
+    "jest": "28.1.0",
+    "lodash": "4.17.21",
+    "prettier": "2.6.2",
+    "react": "18.1.0",
+    "tsdx": "^0.14.1",
+    "typescript": "4.6.4"
+  },
+  "dependencies": {
+    "react-debounced-delta-hook": "1.0.0"
+  }
+}
