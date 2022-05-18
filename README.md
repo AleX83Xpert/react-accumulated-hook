@@ -4,6 +4,10 @@ This hook is useful for periodically saving form data without pressing submit bu
 
 Try the following code to test
 ```
+import useAccumulated from 'react-accumulated-hookc
+
+...
+
 const [fields, accumulatedChanges, setField] = useAccumulated({
   timeout: 2000,
   initialData: { name: '', email: '' },
@@ -11,6 +15,8 @@ const [fields, accumulatedChanges, setField] = useAccumulated({
     console.log('accumulatedData', accumulatedData)
   },
 })
+
+...
 
 return (
   <>
