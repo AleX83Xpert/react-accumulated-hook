@@ -1,5 +1,5 @@
 {
-  "name": "react-debounced-delta-hook",
+  "name": "react-accumulated-hook",
   "version": "1.0.1",
   "description": "",
   "source": "./src/index.tsx",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AleX83Xpert/react-debounced-delta-hook.git"
+    "url": "git+https://github.com/AleX83Xpert/react-accumulated-hook.git"
   },
   "files": [
     "dist",
@@ -34,15 +34,16 @@
   "keywords": [
     "reack",
     "hook",
-    "debounced",
-    "delta"
+    "accumulated",
+    "delta",
+    "delayed"
   ],
   "author": "AleX83Xpert",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AleX83Xpert/react-debounced-delta-hook/issues"
+    "url": "https://github.com/AleX83Xpert/react-accumulated-hook/issues"
   },
-  "homepage": "https://github.com/AleX83Xpert/react-debounced-delta-hook#readme",
+  "homepage": "https://github.com/AleX83Xpert/react-accumulated-hook#readme",
   "devDependencies": {
     "@babel/core": "7.17.10",
     "@babel/preset-env": "7.17.10",
@@ -58,8 +59,5 @@
     "react": "18.1.0",
     "tsdx": "^0.14.1",
     "typescript": "4.6.4"
-  },
-  "dependencies": {
-    "react-debounced-delta-hook": "1.0.0"
   }
 }
