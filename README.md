@@ -1,10 +1,10 @@
-# react-debounced-delta-hook
+# react-accumulated-hook
 
 This hook is useful for periodically saving form data without pressing submit button.
 
 Try the following code to test
 ```
-const [fields, accumulatedChanges, setField] = useDebouncedDelta({
+const [fields, accumulatedChanges, setField] = useAccumulated({
   timeout: 2000,
   initialData: { name: '', email: '' },
   action: (accumulatedData) => {
