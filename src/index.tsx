@@ -1,13 +1,13 @@
 import { useCallback, useEffect, useState } from 'react'
 import debounce from 'lodash/debounce'
 
-interface IDebouncedDeltaProps {
+interface IAccumulatedProps {
   timeout: number,
   initialData?: Record<string, unknown>,
   action (attrs: any): any,
 }
 
-function useDebouncedDelta (props: IDebouncedDeltaProps) {
+function useAccumulated (props: IAccumulatedProps) {
   const { action, timeout = 1000, initialData = {} } = props
   const [accumulatedChanges, setAccumulatedChanges] = useState<object|null>(null)
   const [fields, setFields] = useState(initialData)
@@ -31,4 +31,4 @@ function useDebouncedDelta (props: IDebouncedDeltaProps) {
   return [fields, accumulatedChanges, setField]
 }
 
-module.exports = useDebouncedDelta
+export default useAccumulated
