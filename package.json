@@ -1,6 +1,6 @@
 {
   "name": "react-accumulated-hook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "source": "./src/index.tsx",
   "main": "./dist/index.js",
