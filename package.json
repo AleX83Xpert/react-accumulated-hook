@@ -1,5 +1,5 @@
 {
-  "name": "react-accumulated-hook2",
+  "name": "react-accumulated-hook",
   "version": "0.1.0",
   "description": "React hook for accumulating data heap with following usage within delayed callback",
   "author": "AleX83Xpert",
