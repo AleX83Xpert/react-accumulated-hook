@@ -1,17 +1,9 @@
 import { useCallback, useEffect, useState } from 'react';
 import debounce from 'lodash/debounce';
 
-interface IAccumulatedProps {
-  timeout: number;
-  initialData?: Record<string, unknown>;
-  action(attrs: any): any;
-}
-
-export default function useAccumulated(props: IAccumulatedProps) {
+export default function useAccumulated(props) {
   const { action, timeout = 1000, initialData = {} } = props;
-  const [accumulatedChanges, setAccumulatedChanges] = useState<object | null>(
-    null
-  );
+  const [accumulatedChanges, setAccumulatedChanges] = useState(null);
   const [fields, setFields] = useState(initialData);
 
   const debouncedAction = useCallback(
@@ -28,8 +20,8 @@ export default function useAccumulated(props: IAccumulatedProps) {
     }
   }, [accumulatedChanges]);
 
-  const setField = useCallback((field: string, value: any) => {
-    setAccumulatedChanges((prevAccumulatedChanges: object) => ({
+  const setField = useCallback((field, value) => {
+    setAccumulatedChanges((prevAccumulatedChanges) => ({
       ...prevAccumulatedChanges,
       [field]: value,
     }));

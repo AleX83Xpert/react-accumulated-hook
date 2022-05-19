@@ -16,7 +16,7 @@ npm install react-accumulated-hook
 
 Try the following code to test
 ```
-import useAccumulated from 'react-accumulated-hook'
+import { useAccumulated } from 'react-accumulated-hook'
 
 ...
 
