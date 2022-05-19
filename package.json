@@ -1,11 +1,12 @@
 {
   "name": "react-accumulated-hook2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React hook for accumulating data heap with following usage within delayed callback",
   "author": "AleX83Xpert",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
+    "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,7 +26,13 @@
   },
   "homepage": "https://github.com/AleX83Xpert/react-accumulated-hook#readme",
   "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
     "lodash": "^4.17.21",
     "react": "^18.1.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.17.12",
+    "@babel/preset-react": "^7.17.12"
   }
 }
