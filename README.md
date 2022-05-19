@@ -2,9 +2,21 @@
 
 This hook is useful for periodically saving form data without pressing submit button.
 
+# Getting started
+
+## Install
+
+```
+yarn add react-accumulated-hook
+or
+npm install react-accumulated-hook
+```
+
+## Usage
+
 Try the following code to test
 ```
-import useAccumulated from 'react-accumulated-hookc
+import useAccumulated from 'react-accumulated-hook'
 
 ...
 
