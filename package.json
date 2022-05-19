@@ -1,6 +1,6 @@
 {
   "name": "react-accumulated-hook2",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "React hook for accumulating data heap with following usage within delayed callback",
   "author": "AleX83Xpert",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "yarn build"
+    "prepack": "yarn build"
   },
   "repository": {
     "type": "git",
