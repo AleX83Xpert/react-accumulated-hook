@@ -1,9 +1,8 @@
 {
   "name": "react-accumulated-hook",
-  "version": "1.0.0",
-  "description": "",
-  "source": "./src/index.tsx",
-  "main": "./dist/index.js",
+  "version": "0.0.1",
+  "description": "React hook for accumulating data heap with following usage within delayed callback",
+  "main": "index.ts",
   "scripts": {
     "build": "tsdx build",
     "test": "jest",
@@ -32,11 +31,12 @@
     "src"
   ],
   "keywords": [
-    "reack",
-    "hook",
+    "react",
+    "hooks",
     "accumulated",
     "delta",
-    "delayed"
+    "delayed",
+    "forms"
   ],
   "author": "AleX83Xpert",
   "license": "MIT",
